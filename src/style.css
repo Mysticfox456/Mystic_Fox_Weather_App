@@ -4,7 +4,7 @@ body {
   align-items: center;
   height: auto;
   margin: 0;
-  background-image: url(img/vecteezy_VIntage_background_ir1020.jpg);
+  background-image: url("https://i.pinimg.com/originals/8a/e7/7a/8ae77a47d4139b9ed8b394e2bcd8fd05.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   font-size: 24px;
@@ -35,11 +35,13 @@ li:first-letter {
 }
 .weather-app-wrapper {
   max-width: 680px;
-  margin: 100px auto;
+  margin: auto;
 }
+
 .weather-app {
   padding: 40px;
-  border: 3px solid rgba(148, 104, 38, 0.886);
+  background-color: rgba(209, 230, 239, 0.474);
+  border: 3px solid #d367b6f3;
   border-radius: 30px;
 }
 .overview {
@@ -51,7 +53,7 @@ li:first-letter {
   line-height: 1;
 }
 .weather-temperature strong {
-  color: rgb(33, 33, 33);
+  color: rgb(2, 2, 2);
   font-size: 64px;
   line-height: 1;
   font-weight: 400;
@@ -97,4 +99,9 @@ li:first-letter {
 
 .weather-forecast-temperatures {
   font-size: 25px;
+}
+small {
+  background-color: #d1e6efb9;
+  border: 2px solid #d98bdcf3;
+  border-radius: 10px;
 }
