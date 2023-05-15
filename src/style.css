@@ -1,7 +1,7 @@
 body {
   font-family: " Aclonica", "Cinzel Decorative";
-  justify-content: center;
-  align-items: center;
+  justify-content: center auto;
+  align-items: center auto;
   height: auto;
   margin: 0;
   background-image: url("https://i.pinimg.com/originals/8a/e7/7a/8ae77a47d4139b9ed8b394e2bcd8fd05.jpg");
@@ -14,10 +14,6 @@ h1 {
   font-weight: 100;
   line-height: 30px;
   margin-bottom: 4;
-}
-small {
-  font-weight: bold;
-  text-align: center;
 }
 ul {
   margin: 0;
@@ -41,7 +37,7 @@ li:first-letter {
 .weather-app {
   padding: 40px;
   background-color: rgba(209, 230, 239, 0.474);
-  border: 3px solid #d367b6f3;
+  border: 3px solid #0a5a2ef3;
   border-radius: 30px;
 }
 .overview {
@@ -99,9 +95,4 @@ li:first-letter {
 
 .weather-forecast-temperatures {
   font-size: 25px;
-}
-small {
-  background-color: #d1e6efb9;
-  border: 2px solid #d98bdcf3;
-  border-radius: 10px;
 }
