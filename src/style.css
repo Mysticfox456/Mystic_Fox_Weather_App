@@ -3,8 +3,8 @@ body {
   justify-content: center auto;
   align-items: center auto;
   height: auto;
-  margin: 0;
-  background-image: url("https://i.pinimg.com/originals/8a/e7/7a/8ae77a47d4139b9ed8b394e2bcd8fd05.jpg");
+  margin: 20px;
+  background-image: url("https://i.pinimg.com/736x/c9/a8/60/c9a8605f3dce5c9e858bdcb7ec2b891b--kawaii-wallpaper-disney-wallpaper.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   font-size: 24px;
@@ -13,46 +13,16 @@ h1 {
   font-size: 40px;
   font-weight: 100;
   line-height: 30px;
-  margin-bottom: 4;
+  margin-bottom: 4px;
 }
-ul {
-  margin: 0;
-  padding: 0;
-}
-li {
-  padding: 0;
-  margin: 0;
-  list-style-type: none;
-  line-height: 30px;
-  font-size: 20px;
-}
-li:first-letter {
-  text-transform: capitalize;
-}
+
 .weather-app-wrapper {
   max-width: 680px;
   margin: auto;
+  background-color: rgba(240, 248, 255, 0.556);
 }
-
-.weather-app {
-  padding: 40px;
-  background-color: rgba(209, 230, 239, 0.474);
-  border: 3px solid #0a5a2ef3;
-  border-radius: 30px;
-}
-.overview {
-  margin-bottom: 10px;
-}
-.d-flex {
-  font-size: 30px;
-  font-weight: 400;
-  line-height: 1;
-}
-.weather-temperature strong {
-  color: rgb(2, 2, 2);
-  font-size: 64px;
-  line-height: 1;
-  font-weight: 400;
+.current-city {
+  margin-top: 10px;
 }
 .temperature .unit {
   position: relative;
@@ -83,7 +53,10 @@ li:first-letter {
   text-align: center;
   color: #000;
 }
-
+.card {
+  text-align: center;
+  background-color: rgba(221, 228, 234, 0.589);
+}
 .weather-forecast-date {
   font-size: 25px;
   opacity: 0.9;
